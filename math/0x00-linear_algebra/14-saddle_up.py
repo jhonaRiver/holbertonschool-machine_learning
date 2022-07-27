@@ -13,3 +13,4 @@ def np_matmul(mat1, mat2):
         mat2 (int): ndarray to multiply
     """
     return np.matmul(mat1, mat2)
+    
