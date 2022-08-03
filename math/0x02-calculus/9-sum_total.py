@@ -5,6 +5,14 @@ module summation_i_squared
 
 
 def summation_i_squared(n):
+    """
+    calculates summation
+    Args:
+        n (int): stopping condition
+
+    Returns:
+        int: sum
+    """
     if type(n) != int:
         return None
     if n == 1:
