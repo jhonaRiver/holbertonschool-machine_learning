@@ -13,7 +13,7 @@ def poly_derivative(poly):
     Returns:
         list: new list of coefficients representing the derivative of the
         polynomial
-    """    
+    """
     if not isinstance(poly, list) or len(poly) < 1:
         return None
     if not any(isinstance(val, int) for val in poly):
