@@ -13,8 +13,8 @@ def summation_i_squared(n):
     Returns:
         int: sum
     """
-    if type(n) != int:
+    if not isinstance(n, int) or n < 1:
         return None
-    if n == 1:
-        return n
-    return ((n ** 2) + summation_i_squared(n - 1))
+    elif n == 1:
+        return 1
+    return int(n ** 2) + int(summation_i_squared(n - 1))
