@@ -13,8 +13,6 @@ def summation_i_squared(n):
     Returns:
         int: sum
     """
-    if not isinstance(n, int) or n < 1:
-        return None
-    elif n == 1:
-        return 1
-    return int(n ** 2) + int(summation_i_squared(n - 1))
+    if n > 0:
+        return int(n*(n+1)*((2*n)+1)/6)
+    return None
