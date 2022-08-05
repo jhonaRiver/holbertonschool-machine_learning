@@ -14,15 +14,15 @@ def poly_derivative(poly):
         list: new list of coefficients representing the derivative of the
         polynomial
     """
-    if not isinstance(poly, list) or len(poly) < 1:
+    if type(poly) is not list:
         return None
-    if not any(isinstance(val, int) for val in poly):
+    if len(poly) == 1:
+        return [0]
+    if len(poly) == 0:
         return None
-    der_poly = []
-    for power, coefficient in enumerate(poly):
-        if power == 0:
-            der_poly.append(0)
-        if power == 1:
-            der_poly = []
-        der_poly.append(power * coefficient)
-    return der_poly
+    derivative = []
+    for power in range(1, len(poly)):
+        if type(poly[power]) is not int:
+            return None
+        derivative.append(poly[power]*power)
+    return derivative 
