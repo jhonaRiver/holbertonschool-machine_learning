@@ -25,4 +25,4 @@ def poly_derivative(poly):
         if type(poly[power]) is not int:
             return None
         derivative.append(poly[power]*power)
-    return derivative 
+    return derivative
