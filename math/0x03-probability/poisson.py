@@ -56,3 +56,21 @@ class Poisson:
                 sum += self.data[value]
             lambtha = sum / len(self.data)
             self.__lambtha = float(lambtha)
+
+    def pmf(self, k):
+        """
+        calculates the value of the PMF for a given number of successes
+        Args:
+            k (int): number of successes
+
+        Returns:
+            float: PMF value for k
+        """
+        e = 2.7182818285
+        k_fact = 1
+        lambtha = self.__lambtha
+        if type(k) != int:
+            k = int(k)
+        for i in range(1, k+1):
+            k_fact *= i
+        return (lambtha ** k / (e ** lambtha * k_fact))
