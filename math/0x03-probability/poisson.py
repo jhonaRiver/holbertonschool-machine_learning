@@ -36,7 +36,6 @@ class Poisson:
         Args:
             lambtha (float): expected number of occurences in a given time
                              frame
-
         Raises:
             ValueError: lambtha must be a positive value
             TypeError: data must be a list
@@ -62,7 +61,6 @@ class Poisson:
         calculates the value of the PMF for a given number of successes
         Args:
             k (int): number of successes
-
         Returns:
             float: PMF value for k
         """
@@ -71,6 +69,30 @@ class Poisson:
         lambtha = self.__lambtha
         if type(k) != int:
             k = int(k)
+        if k < 0:
+            return 0
         for i in range(1, k+1):
             k_fact *= i
         return (lambtha ** k / (e ** lambtha * k_fact))
+
+    def cdf(self, k):
+        """
+        calculates the value of the CDF for a given number of successes
+        Args:
+            k (int): number of successes
+        Returns:
+            float: CDF value for k
+        """
+        e = 2.7182818285
+        lambtha = self.__lambtha
+        sum = 0
+        if type(k) != int:
+            k = int(k)
+        if k < 0:
+            return 0
+        for i in range(0, k+1):
+            i_fact = 1
+            for j in range(1, i+1):
+                i_fact *= j
+            sum += (lambtha ** i / i_fact)
+        return (sum / e ** lambtha)
