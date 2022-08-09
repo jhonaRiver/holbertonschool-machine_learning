@@ -56,3 +56,18 @@ class Exponential:
                 sum += self.data[i]
             lambtha = 1 / (sum / len(self.data))
             self.__lambtha = float(lambtha)
+
+    def pdf(self, x):
+        """
+        calculates the value of the PDF for a given time period
+        Args:
+            x (int): time period
+
+        Returns:
+            float: PDF value for x
+        """
+        e = 2.7182818285
+        lambtha = self.__lambtha
+        if x < 0:
+            return 0
+        return (lambtha * (e ** (-lambtha * x)))
