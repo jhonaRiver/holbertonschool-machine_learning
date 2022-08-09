@@ -51,8 +51,8 @@ class Poisson:
             if len(self.data) < 2:
                 raise ValueError("data must contain multiple values")
             sum = 0
-            for value in self.data:
-                sum += self.data[value]
+            for i in range(0, len(self.data)):
+                sum += self.data[i]
             lambtha = sum / len(self.data)
             self.__lambtha = float(lambtha)
 
