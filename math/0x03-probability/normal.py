@@ -128,3 +128,19 @@ class Normal:
         mean = self.__mean
         stddev = self.__stddev
         return ((1/(stddev*(2*pi)**(1/2)))*e**((-1/2)*((x-mean)/stddev)**2))
+
+    def cdf(self, x):
+        """
+        calculates the value of the CDF for a given x-value
+        Args:
+            x (float): x-value
+
+        Returns:
+            float: CDF value for x
+        """
+        pi = 3.1415926536
+        z = (x - self.__mean) / self.__stddev
+        ez = z/(2**(1/2))
+        erf = (2/(pi**(1/2)))*(ez-((ez**3)/3)+((ez**5)/10)-((ez**7)/42) +
+                               ((ez**9)/216))
+        return ((1/2)*(1+erf))
