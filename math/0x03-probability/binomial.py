@@ -118,3 +118,20 @@ class Binomial:
         comb = factor_n / (factor_c * factor_k)
         prob = (self.__p ** k) * ((1 - self.__p) ** (self.__n - k))
         return (comb * prob)
+
+    def cdf(self, k):
+        """
+        calculates the value of the CDF for a given number of "successes"
+        Args:
+            k (int): number of "successes"
+
+        Returns:
+            float: CDF value for k
+        """
+        k = int(k)
+        if k < 0:
+            return 0
+        sum = 0
+        for i in range(k+1):
+            sum += self.pmf(i)
+        return sum
