@@ -9,11 +9,4 @@
 👤 **Jhonatan Rivera**
 
 * Github: [@jhonaRiver](https://github.com/jhonaRiver)
-* LinkedIn: [@Jhonatan Rivera](https://linkedin.com/in/Jhonatan Rivera)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+* LinkedIn: [@Jhonatan Rivera](https://www.linkedin.com/in/jhonatan-rivera-cruz-242144222)
