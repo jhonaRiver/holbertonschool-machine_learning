@@ -35,7 +35,7 @@ class Neuron:
             float vector: weights vector for the neuron
         """
         return self.__W
-    
+
     @property
     def b(self):
         """
@@ -80,4 +80,4 @@ class Neuron:
         m = Y.shape[1]
         total_cost = (-1/m) * np.sum(np.multiply(Y, np.log(A)) +
                                      np.multiply(1-Y, np.log(1.0000001-A)))
-        return total_cost
+        return total_coste

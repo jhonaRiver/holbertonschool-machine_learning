@@ -35,7 +35,7 @@ class Neuron:
             float vector: weights vector for the neuron
         """
         return self.__W
-    
+
     @property
     def b(self):
         """
