@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""
+module create_train_op
+"""
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+
+def create_train_op(loss, alpha):
+    """
+    creates the training operation for the network
+    Args:
+        loss (tensor): loss of the network's prediction
+        alpha (float): learning rate
+
+    Returns:
+        tensor: operation that trains the network using gradient descent
+    """
+    return tf.train.GradientDescentOptimizer(alpha).minimize(loss)
