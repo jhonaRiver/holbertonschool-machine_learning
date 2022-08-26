@@ -105,6 +105,15 @@ class DeepNeuralNetwork:
         return cost
 
     def evaluate(self, X, Y):
+        """
+        evaluates the neural network's predictions
+        Args:
+            X (ndarray): contains the input data
+            Y (ndarray): contains the correct labels for the input data
+
+        Returns:
+            ndarray: neuron's prediction and cost of the network
+        """
         A, _ = self.forward_prop(X)
         cost = self.cost(Y, A)
         prediction = np.where(A >= 0.5, 1, 0)
