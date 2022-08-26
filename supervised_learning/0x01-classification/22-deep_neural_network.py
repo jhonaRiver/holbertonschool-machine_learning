@@ -2,7 +2,6 @@
 """
 module DeepNeuralNetwork class
 """
-from typing import Type
 import numpy as np
 
 
