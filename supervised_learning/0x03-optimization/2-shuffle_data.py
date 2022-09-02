@@ -14,6 +14,6 @@ def shuffle_data(X, Y):
     Returns:
         shuffled X and Y matrices
     """
-    X = np.random.permutation(X)
-    Y = np.random.permutation(Y)
-    return X, Y
+    m = X.shape[0]
+    permutation = np.random.permutation(m)
+    return X[permutation], Y[permutation]
