@@ -13,12 +13,6 @@ def normalization_constants(X):
     Returns:
         mean and standard deviation of each feature
     """
-    m = X.shape[0]
-    means = []
-    std_devs = []
-    for i in range(X.shape[1]):
-        mean = (1 / m) * np.sum(X[i])
-        std_dev = (1 / m) * (np.sum((X[i] - mean) ** 2))
-        means.append(mean)
-        std_devs.append(std_dev)
-    return means, std_devs
+    m = np.mean(X, axis=0)
+    s = np.std(X, axis=0)
+    return m, s
