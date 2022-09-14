@@ -2,6 +2,7 @@
 """
 module save_config and load_config
 """
+import tensorflow.keras as K
 
 
 def save_config(network, filename):
