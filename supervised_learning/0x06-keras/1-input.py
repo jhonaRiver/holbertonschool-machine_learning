@@ -19,7 +19,7 @@ def build_model(nx, layers, activations, lambtha, keep_prob):
     Returns:
         keras model
     """
-    inputs = K.Input(shape=nx,)
+    inputs = K.Input(shape=(nx,))
     x = K.layers.Dense(layers[0], activation=activations[0],
                        kernel_regularizer=K.regularizers.l2(lambtha),
                        input_shape=(nx,))(inputs)
