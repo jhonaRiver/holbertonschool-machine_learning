@@ -42,19 +42,28 @@ def train_model(network, data, labels, batch_size, epochs,
     Returns:
         History object generated after training the model
     """
-    stopping = []
-    if validation_data is not None:
-        if early_stopping is True:
-            stopping.append(K.callbacks.EarlyStopping(patience=patience))
-        if learning_rate_decay is not None:
-            stopping.append(K.callbacks.LearningRateScheduler(
-                            schedule=lambda epoch: alpha /
-                            (1 + decay_rate * epoch), verbose=1))
-        if save_best:
-            stopping.append(K.callbacks.ModelCheckpoint(filepath=filepath,
-                                                        save_best_only=True))
-    iteration = network.fit(data, labels, batch_size=batch_size,
-                            epochs=epochs, verbose=verbose, shuffle=shuffle,
-                            validation_data=validation_data,
-                            callbacks=stopping)
-    return iteration
+    early_stopping_callback = []
+
+    def scheduler(epoch):
+        """
+        gets learning rate of each epoch
+        Args:
+            epoch (int): current epoch
+        Returns:
+            learning rate
+        """
+        return alpha / (1 + decay_rate * epoch)
+    if validation_data and early_stopping:
+        early_stopping_callback.append(
+                K.callbacks.EarlyStopping(patience=patience))
+    if validation_data and learning_rate_decay:
+        learning_rate_decay_callback = K.callbacks.LearningRateScheduler(
+                scheduler, verbose=1)
+        early_stopping_callback.append(learning_rate_decay_callback)
+    if save_best:
+        checkpoint = K.callbacks.ModelCheckpoint(filepath, save_best_only=True)
+        early_stopping_callback.append(checkpoint)
+    return network.fit(data, labels, batch_size=batch_size, epochs=epochs,
+                       callbacks=early_stopping_callback,
+                       validation_data=validation_data, verbose=verbose,
+                       shuffle=shuffle)
