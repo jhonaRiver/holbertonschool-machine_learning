@@ -19,7 +19,7 @@ def lenet5(x, y):
     init = tf.contrib.layers.variance_scaling_initializer()
     activation = tf.nn.relu
     conv1 = tf.layers.Conv2D(filters=6, kernel_size=5, padding='same',
-                             activation=activation, kernel_initializer=init)(x)
+                             activation=activation, kernel_initializer=init)(X)
     pool1 = tf.layers.MaxPooling2D(pool_size=[2, 2], strides=2)(conv1)
     conv2 = tf.layers.Conv2D(filters=16, kernel_size=5, padding='valid',
                              activation=activation,
