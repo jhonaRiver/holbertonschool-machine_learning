@@ -2,7 +2,7 @@
 """
 module lenet5
 """
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 
 def lenet5(x, y):
@@ -19,7 +19,7 @@ def lenet5(x, y):
     init = tf.contrib.layers.variance_scaling_initializer()
     activation = tf.nn.relu
     conv1 = tf.layers.Conv2D(filters=6, kernel_size=5, padding='same',
-                             activation=activation, kernel_initializer=init)(X)
+                             activation=activation, kernel_initializer=init)(x)
     pool1 = tf.layers.MaxPooling2D(pool_size=[2, 2], strides=2)(conv1)
     conv2 = tf.layers.Conv2D(filters=16, kernel_size=5, padding='valid',
                              activation=activation,
