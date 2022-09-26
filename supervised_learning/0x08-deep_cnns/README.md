@@ -93,22 +93,24 @@ At the end of this project I was able to solve these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-inception_block.py]()|
-| [1-inception_network.py]()|
-| [2-identity_block.py]()|
-| [3-projection_block.py]()|
-| [4-resnet50.py]()|
-| [5-dense_block.py]()|
-| [6-transition_layer.py]()|
-| [7-densenet121.py]()|
+| [0-inception_block.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/0-inception_block.py)|
+| [1-inception_network.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/1-inception_network.py)|
+| [2-identity_block.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/2-identity_block.py)|
+| [3-projection_block.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/3-projection_block.py)|
+| [4-resnet50.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/4-resnet50.py)|
+| [5-dense_block.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/5-dense_block.py)|
+| [6-transition_layer.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/6-transition_layer.py)|
+| [7-densenet121.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x08-deep_cnns/7-densenet121.py)|
 
 ## Additional info :construction:
 ### Resources
-
+* python3 (version 3.8)
+* numpy (version 1.19.2)
+* tensorflow (version 2.6)
 
 ### Try It On Your Machine :computer:
 ```bash
-git clone 
-cd 0x08-deep_cnns
+git clone git@github.com:jhonaRiver/holbertonschool-machine_learning.git
+cd supervised_learning/0x08-deep_cnns
 ./tests/MAINFILE.py
 ```
