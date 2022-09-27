@@ -1,14 +1,13 @@
-<h1 align="center">Welcome to math 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/math" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/math.svg">
-  </a>
-</p>
+# Math
 
-> Repository for math projects related to machine learning worked on Holberton
+> Math projects to support our knowledge for the machine learning projects
 
-## Author
+## Projects
 
-👤 **Jhonatan Rivera**
-
-* Github: [@jhonaRiver](https://github.com/jhonaRiver)
+| Project Directory| Summary |
+| ------------------------------------|----|
+| [0x00-linear_algebra](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x00-linear_algebra)| Linear Algebra scripts in Python |
+| [0x01-plotting](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x01-plotting)| Plotting graphics with MatplotLib|
+| [0x02-calculus](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x01-plotting)| Python calculus scripts|
+| [0x03-probability](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x03-probability)| Python probability and statistics scripts|
+| [0x04-convolutions_and_pooling](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x04-convolutions_and_pooling)| Python scripts of convolutions and pooling operations|
