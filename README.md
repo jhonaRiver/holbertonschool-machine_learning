@@ -1,4 +1,4 @@
-# Holbertonschool-machine_learning
+# Holberton School Machine Learning
 
 [![C|C](https://img.shields.io/badge/Python-100%25-blue.svg)](https://sourcerer.io/edward0rtiz)
 > Machine Learning projects for real case scenarios
