@@ -10,7 +10,7 @@ At the end of this project I was able to solve these conceptual questions:
 * What is ResNet? ResNeXt? DenseNet?
 * How to replicate a network architecture by reading a journal article
 
-## Tasks ':heavy_check_mark:'
+## Tasks
 
 0. Write a function `def inception_block(A_prev, filters):` that builds an inception block as described in [Going Deeper with Convolutions (2014)](https://arxiv.org/pdf/1409.4842.pdf):
 
@@ -98,7 +98,7 @@ At the end of this project I was able to solve these conceptual questions:
         * `transition_layer = __import__('6-transition_layer').transition_layer`
     * Returns: the keras model
 
-## Results ':chart_with_upwards_trend:'
+## Results
 
 | Filename |
 | ------ |
