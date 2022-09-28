@@ -43,6 +43,7 @@ At the end of this project I was able to solve these conceptual questions:
     ![Task 7](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task7.png)
 
 8. Type the number of the correct answer in your answer file
+
     ![Task 8](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task8.png)
 
 9. Write a function `def summation_i_squared(n):` that calculates [\sum_{i=1}^{n} i^2] :
