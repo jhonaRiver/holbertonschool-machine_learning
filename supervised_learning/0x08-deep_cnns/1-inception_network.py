@@ -21,12 +21,12 @@ def inception_network():
                              kernel_initializer=init)(X)
     max_pool_1 = K.layers.MaxPooling2D(pool_size=[3, 3], strides=(2, 2),
                                        padding='same')(conv_1)
-    conv_2P = K.layers.Conv2D(filters=64, kernel_size=1, padding='valid',
-                              activation=activation,
-                              kernel_initializer=init)(max_pool_1)
+    #conv_2P = K.layers.Conv2D(filters=64, kernel_size=1, padding='valid',
+     #                         activation=activation,
+      #                        kernel_initializer=init)(max_pool_1)
     conv_2 = K.layers.Conv2D(filters=192, kernel_size=3, padding='same',
                              activation=activation,
-                             kernel_initializer=init)(conv_2P)
+                             kernel_initializer=init)(max_pool_1)
     max_pool_2 = K.layers.MaxPooling2D(pool_size=[3, 3], strides=(2, 2),
                                        padding='same')(conv_2)
     iblock_1 = inception_block(max_pool_2, [64, 96, 128, 16, 32, 32])
