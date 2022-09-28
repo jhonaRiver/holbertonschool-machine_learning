@@ -23,31 +23,40 @@ At the end of this project I was able to solve these conceptual questions:
     ![Task 0](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task0.png)
 
 1. Type the number of the correct answer in your answer file
+
     ![Task 1](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task1.png)
 
 2. Type the number of the correct answer in your answer file
+
     ![Task 2](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task2.png)
 
 3. Type the number of the correct answer in your answer file
+
     ![Task 3](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task3.png)
 
 4. Type the number of the correct answer in your answer file
+
     ![Task 4](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task4.png)
 
 5. Type the number of the correct answer in your answer file
+
     ![Task 5](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task5.png)
 
 6. Type the number of the correct answer in your answer file
+
     ![Task 6](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task6.png)
 
 7. Type the number of the correct answer in your answer file
+
     ![Task 7](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task7.png)
 
 8. Type the number of the correct answer in your answer file
 
     ![Task 8](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task8.png)
 
-9. Write a function `def summation_i_squared(n):` that calculates [\sum_{i=1}^{n} i^2] :
+9. Write a function `def summation_i_squared(n):` that calculates:
+
+    ![Task 9](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task9.png)
 
     * `n` is the stopping condition
     * Return the integer value of the sum
@@ -58,38 +67,65 @@ At the end of this project I was able to solve these conceptual questions:
 
     * `poly` is a list of coefficients representing a polynomial
         * the index of the list represents the power of `x` that the coefficient belongs to
-        * Example: if [f(x) = x^3 + 3x +5] , `poly` is equal to `[5, 3, 0, 1]`
+        * Example: if f(x) = x^3 + 3x +5, `poly` is equal to `[5, 3, 0, 1]`
     * If `poly` is not valid, return `None`
     * If the derivative is `0`, return `[0]`
     * Return a new list of coefficients representing the derivative of the polynomial
 
 11. Type the number of the correct answer in your answer file
+
+    ![Task 11](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task11.png)
+
 12. Type the number of the correct answer in your answer file
+
+    ![Task 12](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task12.png)
+
 13. Type the number of the correct answer in your answer file
+
+    ![Task 13](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task13.png)
+
 14. Type the number of the correct answer in your answer file
+
+    ![Task 14](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task14.png)
+
 15. Type the number of the correct answer in your answer file
+
+    ![Task 15](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task15.png)
+
 16. Type the number of the correct answer in your answer file
-17. 
+
+    ![Task 16](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task16.png)
+
+17. Write a function `def poly_integral(poly, C=0):` that calculates the integral of a polynomial:
+
+    * `poly` is a list of coefficients representing a polynomial
+        * the index of the list represents the power of `x` that the coefficient belongs to
+        * Example: if f(x) = x^3 + 3x +5, `poly` is equal to `[5, 3, 0, 1]`
+    * `C` is an integer representing the integration constant
+    * If a coefficient is a whole number, it should be represented as an integer
+    * If `poly` or `C` are not valid, return `None`
+    * Return a new list of coefficients representing the integral of the polynomial
+    * The returned list should be as small as possible
 
 ## Results
 
 | Filename |
 | ------ |
-| [0-sigma_is_for_sum]()|
-| [1-seegma]()|
-| [2-pi_is_for_product]()|
-| [3-pee]()|
-| [4-hello_derivatives]()|
-| [5-log_on_fire]()|
-| [6-voltaire]()|
-| [7-partial_truths]()|
-| [8-all-together]()|
-| [9-sum_total.py]()|
-| [10-matisse.py]()|
-| []()|
-| []()|
-| []()|
-| []()|
-| []()|
-| []()|
-| []()|
+| [0-sigma_is_for_sum](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/0-sigma_is_for_sum)|
+| [1-seegma](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/1-seegma)|
+| [2-pi_is_for_product](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/2-pi_is_for_product)|
+| [3-pee](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/3-pee)|
+| [4-hello_derivatives](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/4-hello_derivatives)|
+| [5-log_on_fire](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/5-log_on_fire)|
+| [6-voltaire](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/6-voltaire)|
+| [7-partial_truths](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/7-partial_truths)|
+| [8-all-together](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/8-all-together)|
+| [9-sum_total.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/9-sum_total.py)|
+| [10-matisse.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/10-matisse.py)|
+| [11-integral](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/11-integral)|
+| [12-integral](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/12-integral)|
+| [13-definite](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/13-definite)|
+| [14-definite](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/14-definite)|
+| [15-definite](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/15-definite)|
+| [16-double](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/16-double)|
+| [17-integrate.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x02-calculus/17-integrate.py)|
