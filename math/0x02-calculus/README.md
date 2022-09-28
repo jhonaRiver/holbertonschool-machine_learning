@@ -19,6 +19,7 @@ At the end of this project I was able to solve these conceptual questions:
 ## Tasks
 
 0. Type the number of the correct answer in your answer file
+
     ![Task 0](https://raw.githubusercontent.com/jhonaRiver/holbertonschool-machine_learning/master/math/0x02-calculus/img/task0.png)
 
 1. Type the number of the correct answer in your answer file
