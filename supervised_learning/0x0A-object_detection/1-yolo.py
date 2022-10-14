@@ -54,9 +54,9 @@ class Yolo:
                           / pred.shape[0])
                     anchor_tensor = self.anchors[ipred].astype(float)
                     anchor_tensor[:, 0] *= np.exp(pred[grid_h, grid_w, :, 2])\
-                        / self.model.input.shape[1]
+                        / self.model.input.shape[1].value
                     anchor_tensor[:, 1] *= np.exp(pred[grid_h, grid_w, :, 3])\
-                        / self.model.input.shape[2]
+                        / self.model.input.shape[2].value
                     pred[grid_h, grid_w, :, 0] = (bx - (anchor_tensor[:, 0] /
                                                   2)) * image_size[1]
                     pred[grid_h, grid_w, :, 1] = (by - (anchor_tensor[:, 1] /
