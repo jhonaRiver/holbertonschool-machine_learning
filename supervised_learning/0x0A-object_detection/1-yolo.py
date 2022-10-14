@@ -68,4 +68,4 @@ class Yolo:
         box_confidences = [self.sigmoid(pred[:, :, :, 4:5]) for pred in
                            outputs]
         box_class_probs = [self.sigmoid(pred[:, :, :, 5:]) for pred in outputs]
-        return boxes, box_confidences, box_class_probs
+        return (boxes, box_confidences, box_class_probs)
