@@ -1,9 +1,6 @@
 # Holberton School Machine Learning
 
-[![C|C](https://img.shields.io/badge/Python-100%25-blue.svg)](https://sourcerer.io/edward0rtiz)
 > Machine Learning projects for real case scenarios
->
-> Support libraries and tools: Numpy, TensorFlow, Keras
 
 ## Projects inside this repo
 
@@ -22,19 +19,4 @@
 | [supervised_learning/0x06-keras](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x06-keras)| Keras scripts for implement DNN models|
 | [supervised_learning/0x07-cnn](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x07-cnn)| TensorFlow, Keras and Python scripts to create CNN models|
 | [supervised_learning/0x08-deep_cnns](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x08-deep_cnns)| Building 5 of the most disruptive DNN architectures|
-
-## Stack
-
-This repository used the following main stack:
-| Tool/Library|
-| ------------------------------------|
-| [Python](https://www.python.org/)|
-| [Git](https://git-scm.com/)|
-| [Github](https://github.com/) |
-| [Bash](https://www.gnu.org/software/bash/)|
-| [Vagrant](https://www.vagrantup.com/)|
-| [Numpy](https://numpy.org/)|
-| [Matplotlib](https://matplotlib.org/)|
-| [Tensorflow](https://www.tensorflow.org/)|
-| [Keras](https://www.keras.io/)|
-| [VS Code](https://code.visualstudio.com/)|
+| [supervised_learning/0x0A-object_detection](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0A-object_detection)| Objecct detection using YOLOv3 algorithm from scratch|
