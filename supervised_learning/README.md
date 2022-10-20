@@ -15,3 +15,4 @@
 | [0x07-cnn](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x07-cnn)| TensorFlow, Keras and Python scripts to create CNN models|
 | [0x08-deep_cnns](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x08-deep_cnns)| Building 5 of the most disruptive DNN architectures|
 | [0x0A-object_detection](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0A-object_detection)| Object detection using YOLOv3 algorithm|
+| [0x0C-neural_style_transfer](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0C-neural_style_transfer)| Gram matrix, style/content costs, gradient tape|
