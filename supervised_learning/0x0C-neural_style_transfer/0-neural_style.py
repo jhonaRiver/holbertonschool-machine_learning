@@ -64,7 +64,7 @@ class NST:
         scale = max_dim / long_dim
         new_shape = tuple(map(lambda x: int(scale * x), image.shape[:-1]))
         image = image[tf.newaxis, :]
-        image = tf.image.resize(image, new_shape, method="bicubic")
+        image = tf.image.resize_bicubic(image, new_shape)
         image = image / 255
         image = tf.clip_by_value(image, clip_value_min=0, clip_value_max=1)
         return image
