@@ -37,7 +37,7 @@ class NST:
             raise TypeError("alpha must be a non-negative number")
         if not isinstance(beta, (int, float)) or beta < 0:
             raise TypeError("beta must be a non-negative number")
-        tf.enable_eager_execution()
+        # tf.enable_eager_execution()
         self.style_image = self.scale_image(style_image)
         self.content_image = self.scale_image(content_image)
         self.alpha = alpha
@@ -67,7 +67,7 @@ class NST:
         scale = max_dim / long_dim
         new_shape = tuple(map(lambda x: int(scale * x), image.shape[:-1]))
         image = image[tf.newaxis, :]
-        image = tf.image.resize_bicubic(image, new_shape)
+        image = tf.image.resize(image, new_shape, method="bicubic")
         image = image / 255
         image = tf.clip_by_value(image, clip_value_min=0, clip_value_max=1)
         return image
