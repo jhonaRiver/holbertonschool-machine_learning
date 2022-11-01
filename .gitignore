@@ -198,4 +198,7 @@ tags
 # Persistent undo
 [._]*.un~
 
+# Main files
+*main.py
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,python,vim
