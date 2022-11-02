@@ -61,9 +61,9 @@ At the end of this project, I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-determinant.py]()|
-| [1-minor.py]()|
-| [2-cofactor.py]()|
-| [3-adjugate.py]()|
-| [4-inverse.py]()|
-| [5-definiteness.py]()|
+| [0-determinant.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/0-determinant.py)|
+| [1-minor.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/1-minor.py)|
+| [2-cofactor.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/2-cofactor.py)|
+| [3-adjugate.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/3-adjugate.py)|
+| [4-inverse.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/4-inverse.py)|
+| [5-definiteness.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x05-advanced_linear_algebra/5-definiteness.py)|
