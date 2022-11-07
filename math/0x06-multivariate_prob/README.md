@@ -60,6 +60,6 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-mean_cov.py]()|
-| [1-correlation.py]()|
-| [multinormal.py]()|
+| [0-mean_cov.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x06-multivariate_prob/0-mean_cov.py)|
+| [1-correlation.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x06-multivariate_prob/1-correlation.py)|
+| [multinormal.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x06-multivariate_prob/multinormal.py)|
