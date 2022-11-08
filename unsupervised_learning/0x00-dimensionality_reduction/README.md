@@ -38,5 +38,5 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-pca.py]()|
-| [1-pca.py]()|
+| [0-pca.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x00-dimensionality_reduction/0-pca.py)|
+| [1-pca.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x00-dimensionality_reduction/1-pca.py)|
