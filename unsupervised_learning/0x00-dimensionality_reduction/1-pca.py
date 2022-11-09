@@ -13,3 +13,9 @@ def pca(X, ndim):
     Returns:
         transformed version of X
     """
+    X_mean = X - np.mean(X, axis=0)
+    u, Sigma, vh = np.linalg.svd(X_mean)
+    W = vh.T
+    Wr = W[:, :ndim]
+    T = np.dot(X_mean, Wr)
+    return T
