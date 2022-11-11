@@ -75,6 +75,21 @@ You are conducting a study on a revolutionary cancer drug and are looking to fin
     * All exceptions should be raised in the above order
     * Returns: the posterior probability of each probability in `P` given `x` and `n`, respectively
 
+4. Based on `3-posterior.py`, write a function `def posterior(x, n, p1, p2):` that calculates the posterior probability that the probability of developing severe side effects falls within a specific range given the data:
+
+    * `x` is the number of patients that develop severe side effects
+    * `n` is the total number of patients observed
+    * `p1` is the lower bound on the range
+    * `p2` is the upper bound on the range
+    * You can assume the prior beliefs of `p` follow a uniform distribution
+    * If `n` is not a positive integer, raise a `ValueError` with the message `n must be a positive integer`
+    * If `x` is not an integer that is greater than or equal to `0`, raise a `ValueError` with the message `x must be an integer that is greater than or equal to 0`
+    * If `x` is greater than `n`, raise a `ValueError` with the message `x cannot be greater than n`
+    * If `p1` or `p2` are not floats within the range `[0, 1]`, raise a `ValueError` with the message `{p} must be a float in the range [0, 1]` where `{p}` is the corresponding variable
+    * if `p2` <= `p1`, raise a `ValueError` with the message `p2 must be greater than p1`
+    * The only import you are allowed to use is `from scipy import special`
+    * Returns: the posterior probability that `p` is within the range `[p1, p2]` given `x` and `n`
+
 ## Results
 
 | Filename |
@@ -83,3 +98,4 @@ You are conducting a study on a revolutionary cancer drug and are looking to fin
 | [1-intersection.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/1-intersection.py)|
 | [2-marginal.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/2-marginal.py)|
 | [3-posterior.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/3-posterior.py)|
+| [100-continuous.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/100-continuous.py)|
