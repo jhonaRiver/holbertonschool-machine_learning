@@ -79,7 +79,7 @@ You are conducting a study on a revolutionary cancer drug and are looking to fin
 
 | Filename |
 | ------ |
-| [0-likelihood.py]()|
-| [1-intersection.py]()|
-| [2-marginal.py]()|
-| [3-posterior.py]()|
+| [0-likelihood.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/0-likelihood.py)|
+| [1-intersection.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/1-intersection.py)|
+| [2-marginal.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/2-marginal.py)|
+| [3-posterior.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/math/0x07-bayesian_prob/3-posterior.py)|
