@@ -13,6 +13,7 @@
 | [math/0x04-convolutions_and_pooling](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x04-convolutions_and_pooling)| Python scripts of convolutions and pooling operations|
 | [math/0x05-advanced_linear_algebra](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x05-advanced_linear_algebra)| Advanced linear algebra scripts in Python|
 | [math/0x06-multivariate_prob](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x06-multivariate_prob)| Multivariate probability Python scripts|
+| [math/0x07-bayesian_prob]()| Bayesian probability Python scripts|
 | [supervised_learning/0x01-classification](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x01-classification)| Classification scripts of NN and DNN using OOP|
 | [supervised_learning/0x02-tensorflow](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x02-tensorflow)| TensorFlow scripts for binary and multiclass DNN models|
 | [supervised_learning/0x03-optimization](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x03-optimization)| Optimization algorithms made in Python for DNN|

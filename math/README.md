@@ -13,3 +13,4 @@
 | [0x04-convolutions_and_pooling](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x04-convolutions_and_pooling)| Python scripts of convolutions and pooling operations|
 | [0x05-advanced_linear_algebra](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x05-advanced_linear_algebra)| Advanced linear algebra scripts in Python|
 | [0x06-multivariate_prob](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/math/0x06-multivariate_prob)| Multivariate probability Python scripts|
+| [0x07-bayesian_prob]()| Bayesian probability Python scripts|
