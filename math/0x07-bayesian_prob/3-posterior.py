@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Module posterior."""
 import numpy as np
+intersection = __import__('1-intersection').intersection
+marginal = __import__('2-marginal').marginal
 
 
 def posterior(x, n, P, Pr):
     """
-    Calculate the posterior probability for the various hypothetical
-    probabilities.
+    Calculate the posterior probability for the various hypothetical\
+        probabilities.
 
     Args:
         x (int): number of patients that develop severe side effects
@@ -16,3 +18,4 @@ def posterior(x, n, P, Pr):
     Returns:
         posterior probability
     """
+    return intersection(x, n, P, Pr) / marginal(x, n, P, Pr)
