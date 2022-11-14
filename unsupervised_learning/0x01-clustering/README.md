@@ -204,16 +204,16 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-initialize.py]()|
-| [1-kmeans.py]()|
-| [2-variance.py]()|
-| [3-optimum.py]()|
-| [4-initialize.py]()|
-| [5-pdf.py]()|
-| [6-expectation.py]()|
-| [7-maximization.py]()|
-| [8-EM.py]()|
-| [9-BIC.py]()|
-| [10-kmeans.py]()|
-| [11-gmm.py]()|
-| [12-agglomerative.py]()|
+| [0-initialize.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/0-initialize.py)|
+| [1-kmeans.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/1-kmeans.py)|
+| [2-variance.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/2-variance.py)|
+| [3-optimum.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/3-optimum.py)|
+| [4-initialize.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/4-initialize.py)|
+| [5-pdf.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/5-pdf.py)|
+| [6-expectation.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/6-expectation.py)|
+| [7-maximization.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/7-maximization.py)|
+| [8-EM.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/8-EM.py)|
+| [9-BIC.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/9-BIC.py)|
+| [10-kmeans.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/10-kmeans.py)|
+| [11-gmm.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/11-gmm.py)|
+| [12-agglomerative.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x01-clustering/12-agglomerative.py)|
