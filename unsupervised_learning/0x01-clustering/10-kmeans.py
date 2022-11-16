@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Module kmeans."""
-import numpy as np
 import sklearn.cluster
 
 
