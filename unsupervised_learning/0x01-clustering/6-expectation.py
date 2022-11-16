@@ -1,4 +1,4 @@
-#!/usr/bin/emv python3
+#!/usr/bin/env python3
 """Module expectation."""
 import numpy as np
 pdf = __import__('5-pdf').pdf
