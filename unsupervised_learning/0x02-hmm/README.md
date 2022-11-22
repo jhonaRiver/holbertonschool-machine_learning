@@ -114,10 +114,10 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-markov_chain.py]()|
-| [1-regular.py]()|
-| [2-absorbing.py]()|
-| [3-forward.py]()|
-| [4-viterbi.py]()|
-| [5-backward.py]()|
-| [6-baum_welch.py]()|
+| [0-markov_chain.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/0-markov_chain.py)|
+| [1-regular.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/1-regular.py)|
+| [2-absorbing.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/2-absorbing.py)|
+| [3-forward.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/3-forward.py)|
+| [4-viterbi.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/4-viterbi.py)|
+| [5-backward.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/5-backward.py)|
+| [6-baum_welch.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x02-hmm/6-baum_welch.py)|
