@@ -1,6 +1,6 @@
 # Holberton School Machine Learning
 
-> Machine Learning projects for real case scenarios
+> Machine Learning is a branch of artificial intelligence and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy
 
 ## Projects inside this repo
 
@@ -27,3 +27,4 @@
 | [unsupervised_learning/0x00-dimensionality_reduction](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x00-dimensionality_reduction)| Dimensionality reduction using PCA|
 | [unsupervised_learning/0x01-clustering](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x01-clustering)| Clustering using K-means|
 | [unsupervised_learning/0x02-hmm](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x02-hmm)| Hidden Markov models|
+| [unsupervised_learning/0x03-hyperparameter_tuning]()| Hyperparameter tuning|
