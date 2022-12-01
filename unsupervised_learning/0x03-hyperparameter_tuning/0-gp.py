@@ -19,6 +19,11 @@ class GaussianProcess:
             sigma_f (int, optional): standard deviation given to the output of
                                      the black-box function. Defaults to 1.
         """
+        self.X = X_init
+        self.Y = Y_init
+        self.l = l
+        self.sigma_f = sigma_f
+        self.K = self.kernel(X_init, X_init)
 
     def kernel(self, X1, X2):
         """
@@ -30,3 +35,7 @@ class GaussianProcess:
         Returns:
             convariance kernel matrix
         """
+        sqdist1 = np.sum(X1 ** 2, 1).reshape(-1, 1) + np.sum(X2 ** 2, 1)
+        sqdist2 = 2 * np.dot(X1, X2.T)
+        sqdist = sqdist1 - sqdist2
+        return self.sigma_f ** 2 * np.exp(-0.5 / self.l ** 2 * sqdist)
