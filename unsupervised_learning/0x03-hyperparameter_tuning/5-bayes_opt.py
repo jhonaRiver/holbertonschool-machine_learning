@@ -32,6 +32,12 @@ class BayesianOptimization:
                                        be performed for minimization or
                                        maximization. Defaults to True.
         """
+        self.f = f
+        self.gp = GP(X_init, Y_init, l, sigma_f)
+        X_s = np.linspace(bounds[0], bounds[1], num=ac_samples)
+        self.X_s = X_s.reshape(-1, 1)
+        self.xsi = xsi
+        self.minimize = minimize
 
     def acquisition(self):
         """
@@ -41,6 +47,24 @@ class BayesianOptimization:
             X_next: represents the next best sample point
             EI: contains the expected improvement of each potential sample
         """
+        mu, sigma = self.gp.predict(self.X_s)
+        if self.minimize is True:
+            Y_sample = np.amin(self.gp.Y)
+            imp = Y_sample - mu - self.xsi
+        else:
+            Y_sample = np.amax(self.gp.Y)
+            imp = mu - Y_sample - self.xsi
+        Z = np.zeros(sigma.shape[0])
+        for i in range(sigma.shape[0]):
+            if sigma[i] > 0:
+                Z[i] = imp[i] / sigma[i]
+            else:
+                Z[i] = 0
+        ei = imp * norm.cdf(Z) + sigma * norm.pdf(Z)
+        ei[sigma == 0.0] = 0.0
+        index = np.argmax(ei)
+        best_sample = self.X_s[index]
+        return (best_sample, ei)
 
     def optimize(self, iterations=100):
         """
@@ -53,3 +77,19 @@ class BayesianOptimization:
             X_opt: represents the optimal point
             Y_opt: represents the optimal function value
         """
+        X_all_s = []
+        for i in range(iterations):
+            x_opt, _ = self.acquisition()
+            if x_opt in X_all_s:
+                break
+            y_opt = self.f(x_opt)
+            self.gp.update(x_opt, y_opt)
+            X_all_s.append(x_opt)
+        if self.minimize is True:
+            index = np.argmin(self.gp.Y)
+        else:
+            index = np.argmax(self.gp.Y)
+        self.gp.X = self.gp.X[:-1]
+        x_opt = self.gp.X[index]
+        y_opt = self.gp.Y[index]
+        return x_opt, y_opt
