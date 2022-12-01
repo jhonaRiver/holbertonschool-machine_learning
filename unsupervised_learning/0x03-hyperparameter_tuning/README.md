@@ -95,9 +95,9 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-gp.py]()|
-| [1-gp.py]()|
-| [2-gp.py]()|
-| [3-bayes_opt.py]()|
-| [4-bayes_opt.py]()|
-| [5-bayes_opt.py]()|
+| [0-gp.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/0-gp.py)|
+| [1-gp.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/1-gp.py)|
+| [2-gp.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/2-gp.py)|
+| [3-bayes_opt.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/3-bayes_opt.py)|
+| [4-bayes_opt.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/4-bayes_opt.py)|
+| [5-bayes_opt.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x03-hyperparameter_tuning/5-bayes_opt.py)|
