@@ -32,6 +32,12 @@ class BayesianOptimization:
                                        be performed for minimization or
                                        maximization. Defaults to True.
         """
+        self.f = f
+        self.gp = GP(X_init, Y_init, l, sigma_f)
+        X_s = np.linspace(bounds[0], bounds[1], num=ac_samples)
+        self.X_s = X_s.reshape(-1, 1)
+        self.xsi = xsi
+        self.minimize = minimize
 
     def acquisition(self):
         """
@@ -41,3 +47,19 @@ class BayesianOptimization:
             X_next: represents the next best sample point
             EI: contains the expected improvement of each potential sample
         """
+        mu, sigma = self.gp.predict(self.X_s)
+        if self.minimize is True:
+            Y_sample = np.min(self.gp.Y)
+            imp = Y_sample - mu - self.xsi
+        else:
+            Y_sample = np.max(self.gp.Y)
+            imp = mu - Y_sample - self.xsi
+        Z = np.zeros(sigma.shape[0])
+        for i in range(sigma.shape[0]):
+            if sigma[i] > 0:
+                Z[i] = imp[i] / sigma[i]
+            else:
+                Z[i] = 0
+            ei = imp * norm.cdf(Z) + sigma * norm.pdf(Z)
+        X_next = self.X_s[np.argmax(ei)]
+        return X_next, ei
