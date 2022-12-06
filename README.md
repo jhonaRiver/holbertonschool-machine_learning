@@ -28,4 +28,4 @@
 | [unsupervised_learning/0x01-clustering](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x01-clustering)| Clustering using K-means|
 | [unsupervised_learning/0x02-hmm](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x02-hmm)| Hidden Markov models|
 | [unsupervised_learning/0x03-hyperparameter_tuning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x03-hyperparameter_tuning)| Hyperparameter tuning|
-| [unsupervised_learning/0x04-autoencoders]()| Autoencoders|
+| [unsupervised_learning/0x04-autoencoders](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x04-autoencoders)| Autoencoders|

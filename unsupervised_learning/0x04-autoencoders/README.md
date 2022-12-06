@@ -74,7 +74,7 @@ At the end of this project I was able to answer these conceptual questions:
 ## Results
 
 | Filename |
-| [0-vanilla.py]()|
-| [1-sparse.py]()|
-| [2-convolutional.py]()|
-| [3-variational.py]()|
+| [0-vanilla.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x04-autoencoders/0-vanilla.py)|
+| [1-sparse.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x04-autoencoders/1-sparse.py)|
+| [2-convolutional.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x04-autoencoders/2-convolutional.py)|
+| [3-variational.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/unsupervised_learning/0x04-autoencoders/3-variational.py)|
