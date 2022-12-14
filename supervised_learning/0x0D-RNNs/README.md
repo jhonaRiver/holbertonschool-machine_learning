@@ -154,12 +154,12 @@
 ## Results
 
 | Filename |
-| [0-rnn_cell.py]()|
-| [1-rnn.py]()|
-| [2-gru_cell.py]()|
-| [3-lstm_cell.py]()|
-| [4-deep_rnn.py]()|
-| [5-bi_forward.py]()|
-| [6-bi_backward.py]()|
-| [7-bi_output.py]()|
-| [8-bi_rnn.py]()|
+| [0-rnn_cell.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/0-rnn_cell.py)|
+| [1-rnn.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/1-rnn.py)|
+| [2-gru_cell.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/2-gru_cell.py)|
+| [3-lstm_cell.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/3-lstm_cell.py)|
+| [4-deep_rnn.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/4-deep_rnn.py)|
+| [5-bi_forward.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/5-bi_forward.py)|
+| [6-bi_backward.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/6-bi_backward.py)|
+| [7-bi_output.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/7-bi_output.py)|
+| [8-bi_rnn.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0D-RNNs/8-bi_rnn.py)|
