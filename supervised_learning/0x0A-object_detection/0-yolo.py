@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""module class Yolo."""
+"""Class Yolo."""
 import tensorflow.keras as K
 
 
