@@ -25,6 +25,7 @@
 | [supervised_learning/0x0A-object_detection](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0A-object_detection)| Objecct detection using YOLOv3 algorithm from scratch|
 | [supervised_learning/0x0C-neural_style_transfer](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0C-neural_style_transfer)| Neural style transfer using VGG19|
 | [supervised_learning/0x0D-RNNs](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0D-RNNs)| RNNs|
+| [supervised_learning/0x0E-time_series]()| Time Series Forecasting|
 | [unsupervised_learning/0x00-dimensionality_reduction](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x00-dimensionality_reduction)| Dimensionality reduction using PCA|
 | [unsupervised_learning/0x01-clustering](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x01-clustering)| Clustering using K-means|
 | [unsupervised_learning/0x02-hmm](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x02-hmm)| Hidden Markov models|
