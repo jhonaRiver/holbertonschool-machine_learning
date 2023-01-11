@@ -92,9 +92,9 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | --- |
-| [0-bag_of_words.py]()|
-| [1-tf_idf.py]()|
-| [2-word2vec.py]()|
-| [3-gensim_to_keras.py]()|
-| [4-fasttext.py]()|
-| [5-elmo]()|
+| [0-bag_of_words.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/0-bag_of_words.py)|
+| [1-tf_idf.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/1-tf_idf.py)|
+| [2-word2vec.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/2-word2vec.py)|
+| [3-gensim_to_keras.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/3-gensim_to_keras.py)|
+| [4-fasttext.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/4-fasttext.py)|
+| [5-elmo](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x0F-word_embeddings/5-elmo)|
