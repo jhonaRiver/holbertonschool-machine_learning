@@ -28,9 +28,9 @@ def word2vec_model(sentences, size=100, min_count=5, window=5, negative=5,
         the trained model
     """
     model = gensim.models.Word2Vec(sentences, min_count=min_count,
-                                   iter=iterations, size=size, window=window,
-                                   negative=negative, seed=seed, sg=cbow,
-                                   workers=workers)
+                                   epochs=iterations, vector_size=size,
+                                   window=window, negative=negative, seed=seed,
+                                   sg=cbow, workers=workers)
     model.train(sentences, total_examples=model.corpus_count,
-                epochs=model.iter)
+                epochs=model.epochs)
     return model
