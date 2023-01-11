@@ -17,4 +17,4 @@
 | [0x0A-object_detection](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0A-object_detection)| Object detection using YOLOv3 algorithm|
 | [0x0C-neural_style_transfer](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0C-neural_style_transfer)| Gram matrix, style/content costs, gradient tape|
 | [0x0D-RNNs](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0D-RNNs)| RNNs|
-| [0x0E-time_series]()| Time Series Forecasting|
+| [0x0F-word_embeddings]()| Natural Language Processing - Word Embeddings|
