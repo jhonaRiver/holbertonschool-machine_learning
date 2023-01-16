@@ -1,6 +1,6 @@
 # 0x10 Natural Language Processing - Evaluation Metrics
 
->
+> Whenever we build NLP models, we need some form of metric to measure the goodness of the model. Bear in mind that the “goodness” of the model could have multiple interpretations, but generally when we speak of it here we are talking of the measure of a model's performance on new instances that weren’t a part of the training data
 
 At the end of this project I was able to answer these conceptual questions:
 
