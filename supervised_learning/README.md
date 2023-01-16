@@ -18,3 +18,4 @@
 | [0x0C-neural_style_transfer](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0C-neural_style_transfer)| Gram matrix, style/content costs, gradient tape|
 | [0x0D-RNNs](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0D-RNNs)| RNNs|
 | [0x0F-word_embeddings](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0F-word_embeddings)| Natural Language Processing - Word Embeddings|
+| [0x10-nlp_metrics](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x10-nlp_metrics)| NLP - Evaluation Metrics|
