@@ -27,6 +27,7 @@
 | [supervised_learning/0x0D-RNNs](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0D-RNNs)| RNNs|
 | [supervised_learning/0x0F-word_embeddings](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x0F-word_embeddings)| Natural Language Processing - Word Embeddings|
 | [supervised_learning/0x10-nlp_metrics](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/supervised_learning/0x10-nlp_metrics)| NLP - Evaluation Metrics|
+| [supervised_learning/0x11-attention]()| Attention|
 | [unsupervised_learning/0x00-dimensionality_reduction](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x00-dimensionality_reduction)| Dimensionality reduction using PCA|
 | [unsupervised_learning/0x01-clustering](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x01-clustering)| Clustering using K-means|
 | [unsupervised_learning/0x02-hmm](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x02-hmm)| Hidden Markov models|
