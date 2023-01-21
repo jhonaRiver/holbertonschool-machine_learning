@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Module positional_encoding."""
-import tensorflow as tf
 import numpy as np
 
 
