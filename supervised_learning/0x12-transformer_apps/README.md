@@ -98,9 +98,9 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-dataset.py]()|
-| [1-dataset.py]()|
-| [2-dataset.py]()|
-| [3-dataset.py]()|
-| [4-create_masks.py]()|
-| [5-transformer.py]()|
+| [0-dataset.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/0-dataset.py)|
+| [1-dataset.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/1-dataset.py)|
+| [2-dataset.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/2-dataset.py)|
+| [3-dataset.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/3-dataset.py)|
+| [4-create_masks.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/4-create_masks.py)|
+| [5-train.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x12-transformer_apps/5-train.py)|
