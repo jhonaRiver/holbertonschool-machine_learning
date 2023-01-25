@@ -13,7 +13,7 @@ class Dataset:
                                        with_info=True, as_supervised=True)
         self.data_train, self.data_valid = examples['train'], \
             examples['validation']
-        self.tokenizer_pt = self.tokenizer_en = self.tokenize_dataset(
+        self.tokenizer_pt, self.tokenizer_en = self.tokenize_dataset(
             self.data_train)
 
     def tokenize_dataset(self, data):
