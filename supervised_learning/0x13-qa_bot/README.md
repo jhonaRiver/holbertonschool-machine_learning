@@ -1,6 +1,6 @@
 # 0x13 QA Bot
 
->
+> Question Answering models can retrieve the answer to a question from a given text, which is useful for searching for an answer in a document. Some question answering models can generate answers without context!
 
 At the end of this project I was able to answer these conceptual questions:
 
@@ -43,8 +43,8 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-qa.py]()|
-| [1-loop.py]()|
-| [2-qa.py]()|
-| [3-semantic_search.py]()|
-| [4-qa.py]()|
+| [0-qa.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x13-qa_bot/0-qa.py)|
+| [1-loop.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x13-qa_bot/1-loop.py)|
+| [2-qa.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x13-qa_bot/2-qa.py)|
+| [3-semantic_search.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x13-qa_bot/3-semantic_search.py)|
+| [4-qa.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/supervised_learning/0x13-qa_bot/4-qa.py)|
