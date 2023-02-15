@@ -6,4 +6,4 @@
 
 | Project Directory | Summary |
 | ------ | ------ |
-| [0x00-q_learning]()| Q-Learning|
+| [0x00-q_learning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x00-q_learning)| Q-Learning|
