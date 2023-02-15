@@ -36,3 +36,4 @@
 | [unsupervised_learning/0x03-hyperparameter_tuning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x03-hyperparameter_tuning)| Hyperparameter tuning|
 | [unsupervised_learning/0x04-autoencoders](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/unsupervised_learning/0x04-autoencoders)| Autoencoders|
 | [reinforcement_learning/0x00-q_learning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x00-q_learning)| Q-learning|
+| [reinforcement_learning/0x01-deep_q_learning]()| Deep Q-learning|
