@@ -56,6 +56,6 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-monte_carlo.py]()|
-| [1-td_lambtha.py]()|
-| [2-sarsa_lambtha.py]()|
+| [0-monte_carlo.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/reinforcement_learning/0x02-temporal_difference/0-monte_carlo.py)|
+| [1-td_lambtha.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/reinforcement_learning/0x02-temporal_difference/1-td_lambtha.py)|
+| [2-sarsa_lambtha.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/reinforcement_learning/0x02-temporal_difference/2-sarsa_lambtha.py)|
