@@ -32,20 +32,21 @@ def sarsa_lambtha(env, Q, lambtha, episodes=5000, max_steps=100, alpha=0.1,
     for i in range(episodes):
         # Initialize eligibility trace, state, and action
         E = np.zeros(Q.shape)
-        state = env.reset()
+        state, _ = env.reset()
         action = epsilon_greedy(Q, state, epsilon)
 
         # Loop for the given number of steps
         for j in range(max_steps):
             # Take the action and observe the next state, reward, and done flag
-            next_state, reward, done, _ = env.step(action)
+            next_state, reward, done, _ = env.step(action)[:4]
 
             # Get the next action from the next state using epsilon greedy
             next_action = epsilon_greedy(Q, next_state, epsilon)
 
             # Calculate the TD error
             delta = reward + gamma * \
-                Q[next_state][next_action] - Q[state][action]
+                Q[int(next_state)][int(next_action)] - \
+                Q[int(state)][int(action)]
 
             # Update the eligibility trace
             E[state][action] += 1
