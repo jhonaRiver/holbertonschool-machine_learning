@@ -38,3 +38,4 @@
 | [reinforcement_learning/0x00-q_learning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x00-q_learning)| Q-learning|
 | [reinforcement_learning/0x01-deep_q_learning](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x01-deep_q_learning)| Deep Q-learning|
 | [reinforcement_learning/0x02-temporal_difference](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x02-temporal_difference)| Temporal Difference|
+| [reinforcement_learning/0x03-policy_gradients]()| Policy gradients|
