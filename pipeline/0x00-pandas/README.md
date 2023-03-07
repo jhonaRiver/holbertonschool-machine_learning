@@ -100,18 +100,18 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-from_numpy.py]()|
-| [1-from_dictionary.py]()|
-| [2-from_file.py]()|
-| [3-rename.py]()|
-| [4-array.py]()|
-| [5-slice.py]()|
-| [6-flip_switch.py]()|
-| [7-high.py]()|
-| [8-prune.py]()|
-| [9-fill.py]()|
-| [10-index.py]()|
-| [11-concat.py]()|
-| [12-hierarchy.py]()|
-| [13-analyze.py]()|
-| [14-visualize.py]()|
+| [0-from_numpy.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/0-from_numpy.py)|
+| [1-from_dictionary.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/1-from_dictionary.py)|
+| [2-from_file.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/2-from_file.py)|
+| [3-rename.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/3-rename.py)|
+| [4-array.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/4-array.py)|
+| [5-slice.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/5-slice.py)|
+| [6-flip_switch.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/6-flip_switch.py)|
+| [7-high.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/7-high.py)|
+| [8-prune.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/8-prune.py)|
+| [9-fill.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/9-fill.py)|
+| [10-index.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/10-index.py)|
+| [11-concat.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/11-concat.py)|
+| [12-hierarchy.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/12-hierarchy.py)|
+| [13-analyze.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/13-analyze.py)|
+| [14-visualize.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x00-pandas/14-visualize.py)|
