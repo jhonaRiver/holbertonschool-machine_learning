@@ -1,6 +1,6 @@
 # 0x03 Policy Gradients
 
->
+> Type of reinforcement learning techniques that rely upon optimizing parametrized policies with respect to the expected return (long-term cumulative reward) by gradient descent. They do not suffer from many of the problems that have been marring traditional reinforcement learning approaches such as the lack of guarantees of a value function, the intractability problem resulting from uncertain state information and the complexity arising from continuous states & actions.
 
 At the end of this project I was able to answer these conceptual questions:
 
@@ -36,5 +36,5 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [policy_gradient.py]()|
-| [train.py]()|
+| [policy_gradient.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/reinforcement_learning/0x03-policy_gradients/policy_gradient.py)|
+| [train.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/reinforcement_learning/0x03-policy_gradients/train.py)|
