@@ -12,3 +12,6 @@ def from_numpy(array):
     Returns:
         newly created dataframe
     """
+    columns = list(map(chr, range(65, 91)))[:array.shape[1]]
+    df = pd.DataFrame(data=array, columns=columns)
+    return df
