@@ -40,3 +40,4 @@
 | [reinforcement_learning/0x02-temporal_difference](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x02-temporal_difference)| Temporal Difference|
 | [reinforcement_learning/0x03-policy_gradients](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/reinforcement_learning/0x03-policy_gradients)| Policy gradients|
 | [pipeline/0x00-pandas](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/pipeline/0x00-pandas)| Pandas|
+| [pipeline/0x01-apis]()| Data Collection - APIs|
