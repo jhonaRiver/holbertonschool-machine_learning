@@ -55,8 +55,8 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-passengers.py]()|
-| [1-sentience.py]()|
-| [2-user_location.py]()|
-| [3-upcoming.py]()|
-| [4-rocket_frequency.py]()|
+| [0-passengers.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x01-apis/0-passengers.py)|
+| [1-sentience.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x01-apis/1-sentience.py)|
+| [2-user_location.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x01-apis/2-user_location.py)|
+| [3-upcoming.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x01-apis/3-upcoming.py)|
+| [4-rocket_frequency.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x01-apis/4-rocket_frequency.py)|
