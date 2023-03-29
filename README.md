@@ -42,3 +42,4 @@
 | [pipeline/0x00-pandas](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/pipeline/0x00-pandas)| Pandas|
 | [pipeline/0x01-apis](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/pipeline/0x01-apis)| Data Collection - APIs|
 | [pipeline/0x02-databases](https://github.com/jhonaRiver/holbertonschool-machine_learning/tree/master/pipeline/0x02-databases)| Databases|
+| [pipeline/0x04-data_augmentation]()| Data augmentation|
