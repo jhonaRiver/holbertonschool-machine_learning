@@ -50,9 +50,9 @@ At the end of this project I was able to answer these conceptual questions:
 
 | Filename |
 | ------ |
-| [0-flip.py]()|
-| [1-crop.py]()|
-| [2-rotate.py]()|
-| [3-shear.py]()|
-| [4-brightness.py]()|
-| [5-hue.py]()|
+| [0-flip.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/0-flip.py)|
+| [1-crop.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/1-crop.py)|
+| [2-rotate.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/2-rotate.py)|
+| [3-shear.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/3-shear.py)|
+| [4-brightness.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/4-brightness.py)|
+| [5-hue.py](https://github.com/jhonaRiver/holbertonschool-machine_learning/blob/master/pipeline/0x04-data_augmentation/5-hue.py)|
